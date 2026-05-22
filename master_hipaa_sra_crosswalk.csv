@@ -1,0 +1,166 @@
+Question_ID,Security_Question,HIPAA_Citation,Source_Section
+1,Has your practice completed a security risk assessment (SRA) before?,,Section 1
+2,Do you review and update your SRA?,"HIPAA: §164.308(a)(1)(ii)(A) NIST CSF: ID.RA, ID.AM, GV.OC, PR.DS, PR.PS, RS.MI HPH CPG: 1 HICP: TV1 - Practice # 7, 10",Section 1
+3,How often do you review and update your SRA?,"HIPAA: §164.308(a)(1)(ii)(A) NIST CSF: ID.RA, ID.AM, GV.OC, PR.DS, PR.PS, RS.MI HPH CPG: 1 HICP: TV1 - Practice # 10",Section 1
+4,"Do you include all information systems containing, processing, and/or transmitting ePHI in your SRA?","HIPAA: §164.308(a)(1)(ii)(A) NIST CSF: ID.RA, ID.AM, GV.OC, PR.DS, PR.PS, RS.MI HPH CPG: 1 HICP: TV1 - Practice #10",Section 1
+5,How do you verify that that your security measures comply with current HIPAA requirements?,"HIPAA: N/A NIST CSF: ID.RA, PR.DS, ID.AM HPH CPG: 1, 11 HICP: TV1 - Practice #4, 5",Section 1
+6,What do you include in your SRA documentation?,"HIPAA: §164.308(a)(1)(ii)(B) NIST CSF: GV.RR, GV.PO, GV.OV, GV.RM HPH CPG: 1 HICP: TV1 - Practice # 10",Section 1
+7,Do you respond to the threats and vulnerabilities identified in your SRA?,"HIPAA: §164.308(a)(1)(ii)(A) NIST CSF: ID.RA, ID.AM, GV.OC, PR.DS, PR.PS, RS.MI  HPH CPG: 1, 11  HICP: TV1 - Practice # 4, 5, 9",Section 1
+8,Do you identify specific personnel to respond to and mitigate the threats and vulnerabilities found in your SRA?,"HIPAA: §164.308(a)(1)(ii)(B) NIST CSF: ID.RA, GV.RM, RS.MI HPH CPG: 1, 16 HICP: TV1 - Practice # 7",Section 1
+9,Do you communicate SRA results to personnel involved in responding to threats or vulnerabilities?,"HIPAA: §164.308(a)(1)(ii)(B) NIST CSF: ID.RA, GV.RM, RS.MI, GV.RR, GV.PO, GV.OV, PR.PS HPH CPG: 1 HICP: TV1 - Practice # 7",Section 1
+10,How do you communicate SRA results to personnel involved in responding to identified threats or vulnerabilities?,"HIPAA: §164.308(a)(1)(ii)(B) NIST CSF: ID.RA, GV.RM, RS.MI, PR.PS HPH CPG: 1 HICP: TV1 - Practice # 10",Section 1
+1,Inadequate risk awareness or failure to identify new weaknesses,Risk Score,Section 1
+2,Failure to remediate known risk(s),Risk Score,Section 1
+3,Failure to meet minimum regulatory requirements and security standards,Risk Score,Section 1
+4,Inadequate Asset Tracking,Risk Score,Section 1
+5,Unspecified workforce security responsibilities,Risk Score,Section 1
+1,"Do you maintain documentation of policies and procedures regarding risk assessment, risk management and information security activities?",,Section 2
+2,"Do you review and update your security documentation, including policies and procedures?","HIPAA: §164.316(a) NIST CSF: GV.RR, GV.PO, GV.OV, ID.RA, PR.PS HPH CPG: 1, 14, 15 HICP: TV1 - Practice # 10",Section 2
+3,"How do you update your security program documentation, including policies and procedures?","HIPAA: §164.316(b)(2)(iii) NIST CSF: GV.RR, GV.PO, GV.OV, ID.RA, PR.PS, ID.IM HPH CPG: 7, 14, 15, 19 HICP: TV1 - Practice # 10",Section 2
+4,Is the security officer involved in all security policy and procedure updates?,"HIPAA: §164.316(b)(2)(iii) NIST CSF: GV.RR, GV.PO, GV.OV, ID.RA, PR.PS, ID.IM HPH CPG: 4 HICP: TV1 - Practice # 10",Section 2
+5,How does documentation for your risk management and security procedures compare to your actual business practices?,"HIPAA: §164.316(b)(2)(iii) NIST CSF: GV.RR, GV.PO, GV.OV, ID.RA, PR.PS, ID.IM HPH CPG: 7, 15, 19 HICP: TV1 - Practice # 10",Section 2
+6,How long are information security management and risk management documents kept?,"HIPAA: §164.316(b)(1)(i) & (ii) NIST CSF: GV.OC, GV.RM, PR.PS HPH CPG: 1, 15, 19 HICP: TV1 - Practice # 10",Section 2
+7,Do you make sure that information security and risk management documentation is available to those who need it?,"HIPAA: §164.316(b)(2)(i) NIST CSF: GV.OC, GV.RM, PR.PS HPH CPG: 7, 18 HICP: N/A",Section 2
+8,How do you ensure that security and risk management documentation is available to those who need it?,"HIPAA: §164.316(b)(2)(ii) NIST CSF: GV.OC, GV.RM, PR.PS HPH CPG: 4 HICP: TV1 - Practice # 10",Section 2
+1,Failure to update Policies & Procedures,Risk Score,Section 2
+2,Failure to share security procedure information with appropriate parties,Risk Score,Section 2
+3,Inconsistent/unclear risk management documentation,Risk Score,Section 2
+4,No risk management documentation (or low retention of documentation),Risk Score,Section 2
+1,Who within your practice is responsible for developing and implementing information security policies and procedures?,,Section 3
+2,Do you identify and document the role and responsibilities of the security officer?,"HIPAA: §164.308(a)(2) NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO, PR.PS, ID.AM HPH CPG: 4 HICP: TV1 - Practice # 10",Section 3
+3,Is your security officer qualified for the position?,"HIPAA: §164.308(a)(2) NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO, PR.PS HPH CPG: 4 HICP: TV1 - Practice # 10",Section 3
+4,Do workforce members know who the security officer is?,"HIPAA: §164.308(a)(2) NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO HPH CPG: N/A HICP: TV1 - Practice # 8",Section 3
+5,Do workforce members know how and when to contact the security officer?,"HIPAA: §164.308(a)(2) NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO HPH CPG: 4 HICP: N/A",Section 3
+6,Who do people contact for security considerations if there is no security officer available or identified within the organization?,"HIPAA: §164.308(a)(2) NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO HPH CPG: 4 HICP: N/A",Section 3
+7,How are staff roles and job duties defined with respect to ePHI access?,"HIPAA: N/A NIST CSF: PR.AT, DE.AE, GV.RR, RS.CO HPH CPG: 4 HICP: N/A",Section 3
+8,"Do you screen your workforce members (e.g., staff, volunteers, interns) with tools like credential verification or background checks to verify trustworthiness?","HIPAA: §164.308(a)(3)(ii)(A) NIST CSF: ID.AM, PR.MA, DE.CM, DE.AE, PR.PS HPH CPG: 6, 7 HICP: TV1 - Practice #2, 3",Section 3
+9,How are your workforce members screened to verify trustworthiness?,"HIPAA: §164.308(a)(3)(ii)(B) NIST CSF: DE.AE, PR.AA, PR.IR, PR.PS HPH CPG: 6 HICP: N/A",Section 3
+10,Do you ensure that all workforce members (including management) are given security training?,"HIPAA: §164.308(a)(3)(ii)(B) NIST CSF: DE.AE, PR.AA, PR.IR, PR.PS HPH CPG: 6 HICP: N/A",Section 3
+11,How do you ensure that all workforce members are given security training?,"HIPAA: §164.308(a)(5)(i) NIST CSF: PR.AT , GV.RM, PR.PS HPH CPG: 4 HICP: TV1 - Practice # 1, 4",Section 3
+12,How long are records of workforce member security training kept?,"HIPAA: §164.308(a)(5)(i) NIST CSF: PR.AT, PR.PS HPH CPG: 4 HICP: TV1 - Practice # 1, 4, 10",Section 3
+13,Are procedures in place for monitoring log-in attempts and reporting discrepancies?,"HIPAA: §164.308(a)(5)(i) NIST CSF: PR.AT, PR.PS HPH CPG: 4 HICP: N/A",Section 3
+14,Is up-to-date malware protection included in your policies and procedures?,"HIPAA: §164.308(a)(5)(ii)(C) NIST CSF: DE.AE, DE.CM, RS.CO, PR.AT, PR.PS HPH CPG: 18 HICP: TV1 - Practice #2, 3",Section 3
+15,What password security elements are covered in your security training?,"HIPAA: §164.308(a)(5)(ii)(B) NIST CSF: PR.AT, PR.PS HPH CPG: 1, 2 HICP: TV1 - Practice # 2, 9",Section 3
+16,Do you ensure workforce members maintain ongoing awareness of security requirements?,"HIPAA: §164.308(a)(5)(ii)(D) NIST CSF: PR.AT HPH CPG: 2, 8 HICP: TV1 - Practice # 2, 3",Section 3
+17,How does your practice ensure workforce members maintain ongoing awareness of security requirements?,"HIPAA: §164.308(a)(5)(ii)(A) NIST CSF: PR.AT, ID.RA, GV.OC, GV.RR, GV.PO, GV.OV HPH CPG: 4 HICP: TV1 - Practice # 1, 4",Section 3
+18,Do you have a sanction policy to enforce security procedures?,"HIPAA: §164.308(a)(5)(ii)(A) NIST CSF: PR.AT, ID.RA, GV.OC, GV.RR, GV.PO, GV.OV HPH CPG: 4 HICP: TV1 - Practice # 1, 4",Section 3
+19,What is included in your sanction policy to hold personnel accountable if they do not follow your security policies and procedures?,HIPAA: §164.308(a)(1)(ii)(C) NIST CSF: PR.PS HPH CPG: N/A HICP: N/A,Section 3
+1,"Unqualified, uninformed, or lack of Security Officer",Risk Score,Section 3
+2,Untrustworthy employee or business associate,Risk Score,Section 3
+3,Inadequate cybersecurity & IT training,Risk Score,Section 3
+4,Failure to hold workforce members accountable for undesired actions,Risk Score,Section 3
+1,"Do you manage and control personnel access to ePHI, systems, and facilities?",,Section 4
+2,"How do you manage and control personnel access to ePHI, systems, and facilities?","HIPAA: §164.308(a)(3)(i) NIST CSF: PR.AT, PR.PS, PR.AA, PR.IR HPH CPG: 6 HICP: TV1 - Practice #2, 3",Section 4
+3,"What is your process for authorizing, establishing, and modifying access to ePHI?","HIPAA: §164.308(a)(3)(i) NIST CSF: PR.AT, PR.PS, PR.AA, PR.IR HPH CPG: 3, 6 HICP: TV1 - Practice #2, 3",Section 4
+4,How much access to ePHI is granted to users or other entities?,"HIPAA: §164.308(a)(4)(ii)(B) §164.308(a)(4)(ii)(C ) NIST CSF: PR.AA, PR.IR, PR.PS HPH CPG: 6 HICP: TV1 - Practice # 3",Section 4
+5,How are individual users identified when accessing ePHI?,"HIPAA: §164.502(b) NIST CSF: PR.AA, PR.IR, PR.PS, GV.RM, PR.DS HPH CPG: 3, 9 HICP: TV1 - Practice # 3",Section 4
+6,Do you ensure all of your workforce members have appropriate access to ePHI?,"HIPAA: §164.312(a)(2)(i) NIST CSF: PR.AA, PR.IR, DE.CM HPH CPG: 8, 9 HICP: TV1 - Practice # 3",Section 4
+7,"How do you make sure that your workforce's designated access to ePHI is logical, consistent, and appropriate?","HIPAA: §164.308(a)(3)(i) NIST CSF: PR.AT, PR.AA, PR.IR, PR.PS HPH CPG: 9 HICP: TV1 - Practice # 3,4",Section 4
+8,Do you use encryption everywhere ePHI is stored throughout your organization?,"HIPAA: §164.308(a)(3)(i) NIST CSF: PR.AT, PR.PS, DE.CM HPH CPG: 3, 8, 9 HICP: TV1 - Practice # 3,4",Section 4
+9,What procedures do you have in place to encrypt ePHI when deemed reasonable and appropriate?,"HIPAA: §164.312(a)(2)(iv) NIST CSF: PR.DS, PR.MA HPH CPG: 5 HICP: TV1 - Practice # 1, 4",Section 4
+10,Do you use alternative safeguards in place of encryption?,"HIPAA: §164.312(e)(2)(ii) NIST CSF: PR.AA, PR.IR, PR.DS, PR.PS HPH CPG: 5 HICP: TV1 - Practice # 1, 4",Section 4
+11,"When encryption is deemed unreasonable or inappropriate to implement, do you document the use of an alternative safeguard?","HIPAA: N/A NIST CSF: GV.RR, GV.PO, GV.OV, PR.DS, PR.PS, ID.RA HPH CPG: 5 HICP: TV1 - Practice # 2",Section 4
+12,"Have you evaluated implementing any of the following encryption solutions in your local environment to protect ePHI: full disk encryption, file/folder/volume encryption, database encryption, encryption of thumb drives or other external media (including backup media)?",HIPAA: N/A NIST CSF: PR.DS HPH CPG: 5 HICP: TV1 - Practice # 2,Section 4
+13,"Have you evaluated implementing encryption solutions for any of the following cloud services to protect ePHI: email service, file storage, web applications, databases, remote system backups?","HIPAA: §164.312(e)(2)(ii) NIST CSF: PR.AA, PR.IR, PR.DS, DE.CM, ID.RA, GV.RM HPH CPG: 5 HICP: TV1 - Practice # 2",Section 4
+14,"Have you evaluated implementing any of the following encryption solutions for ePHI in transit: encryption of internet traffic by means of a VPN, web traffic over HTTP encrypted using Transport Layer Security (TLS), or secure file transfer?",HIPAA: §164.312(e)(2)(ii) NIST CSF: N/A HPH CPG: 5 HICP: TV1 - Practice # 1,Section 4
+15,Do you periodically review your information systems for how security settings can be implemented to safeguard ePHI?,"HIPAA: §164.312(e)(2)(ii) NIST CSF: N/A HPH CPG: 5 HICP: TV1 - Practice # 1, 4",Section 4
+16,"How are you aware of the security settings for information systems which process, store, or transmit ePHI?","HIPAA: §164.312(a)(1) NIST CSF: PR.AA, PR.IR, PR.DS, ID.RA, PR.PS, DE.CM HPH CPG: 1, 16, 18, 20 HICP: TV1 - Practice # 2, 7",Section 4
+17,Do you use security settings and mechanisms to record and examine information system activity?,"HIPAA: §164.312(a)(1) NIST CSF: PR.AA, PR.IR, PR.DS, PR.PS, ID.RA, PR.MA, DE.CM HPH CPG: 1, 18, 20 HICP: TV1 - Practice # 7",Section 4
+18,What mechanisms are in place to monitor or log system activity?,"HIPAA: §164.312(b) NIST CSF: PR.DS, DE.CM HPH CPG: 14, 15, 16, 18, 20 HICP: TV1 - Practice # 3",Section 4
+19,How do you monitor or track ePHI system activity?,"HIPAA: §164.312(b) NIST CSF: PR.DS, PR.MA, DE.AE, DE.CM, RS.AN HPH CPG: 14, 15, 16, 18, 20 HICP: TV1 - Practice # 3",Section 4
+20,Do you have automatic logoff enabled on devices and platforms accessing ePHI?,"HIPAA: §164.308(a)(1)(ii)(D) NIST CSF: ID.RA, PR.DS, PR.MA, DE.AE, DE.CM, RS.AN HPH CPG: 14, 15, 16, 18, 20 HICP: TV1 - Practice # 3",Section 4
+21,Do you ensure users accessing ePHI are who they claim to be?,"HIPAA: §164.312(a)(2)(iii) NIST CSF: PR.AA, PR.IR, PR.DS HPH CPG: 11 HICP: TV1 - Practice # 3",Section 4
+22,How do you ensure users accessing ePHI are who they claim to be?,"HIPAA: §164.312(d) NIST CSF: PR.AA, PR.IR, PR.DS, PR.MA, DE.CM HPH CPG: 3, 8 HICP: TV1 - Practice # 3",Section 4
+23,How do you determine the means by which ePHI is accessed?,"HIPAA: §164.312(d) NIST CSF: PR.AA, PR.IR, PR.DS, PR.MA, DE.CM HPH CPG: 3, 8 HICP: TV1 - Practice # 3",Section 4
+24,Do you protect ePHI from unauthorized modification or destruction?,"HIPAA: §164.312(d) NIST CSF: PR.AA, PR.IR, PR.DS, PR.MA, DE.CM, PR.PS HPH CPG: 3, 8 HICP: TV1 - Practice # 3",Section 4
+25,How do you confirm that ePHI has not been modified or destroyed without authorization?,HIPAA: §164.312(c)(1) NIST CSF: PR.DS HPH CPG: N/A HICP: TV1 - Practice # 4,Section 4
+26,Do you protect against unauthorized access to or modification of ePHI when it is being transmitted electronically?,"HIPAA: §164.312(c)(2) NIST CSF: PR.DS, DE.CM, DE.AE HPH CPG: 16, 17, 18 HICP: TV1 - Practice # 4",Section 4
+27,Have you implemented mechanisms to record activity on information systems that create or use ePHI?,"HIPAA: §164.312(e)(1) NIST CSF: PR.AA, PR.IR, PR.DS HPH CPG: 17 HICP: TV1 - Practice # 1, 4",Section 4
+28,"Does the organization stay up to date or informed (e.g., cybersecurity listserv monitoring) on emerging threats and vulnerabilities that may affect information systems?","HIPAA: §164.312(b) NIST CSF: PR.AA, PR.IR, PR.DS, PR.PS, DE.AE, DE.CM, RS.AN, PR.MA HPH CPG: 18 HICP: TV1 - Practice # 3",Section 4
+29,Is there a process in place to identify and evaluate information systems for potential emerging technical vulnerabilities and how the exposure could affect systems that contain ePHI?,"HIPAA: N/A NIST CSF: GV.OC HPH CPG: 14, 15 HICP: N/A",Section 4
+30,"If new threats or vulnerabilities are identified through regular scanning, what is done to mitigate and respond to them?",HIPAA: N/A NIST CSF: GV.OC HPH CPG: 1 HICP: N/A,Section 4
+1,Inadequate access controls,Risk Score,Section 4
+2,Lack of documentation for controlling user access,Risk Score,Section 4
+3,Inadequate procedures for evaluating user activity logs,Risk Score,Section 4
+4,Users have more access rights than needed to complete daily tasks,Risk Score,Section 4
+5,Non-unique login credentials for workforce members,Risk Score,Section 4
+6,Inadequate use of encryption for ePHI,Risk Score,Section 4
+7,Inadequate review of computer systems to ensure maximum security,Risk Score,Section 4
+8,Lack of automatic logoff/screen lock of computer systems,Risk Score,Section 4
+9,Inadequate integrity verification of ePHI,Risk Score,Section 4
+10,ePHI in transit lacking encryption,Risk Score,Section 4
+1,"Do you manage access to and use of your facility or facilities (i.e., that house information systems and ePHI)?",,Section 5
+2,What physical protections do you have in place to manage facility security risks?,"HIPAA: §164.310(a)(1) NIST CSF: ID.RA, PR.AA, PR.IR, DE.CM, PR.PS HPH CPG: 7 HICP: TV1 - Practice # 6",Section 5
+3,"Do you restrict physical access to and use of your equipment (i.e., equipment that house ePHI)?","HIPAA: §164.310(a)(2)(ii) NIST CSF: ID.AM, PR.AA, PR.IR, PR.DS, DE.CM HPH CPG: 7, 16 HICP: TV1 - Practice # 6",Section 5
+4,"Do you manage workforce member, visitor, and third-party access to electronic devices?","HIPAA: §164.310(a)(1) NIST CSF: ID.RA, PR.AA, PR.IR, DE.CM, PR.PS HPH CPG: 7, 11 HICP: TV1 - Practice # 6",Section 5
+5,"Do you have physical protections in place, such as cable locks for portable laptops, screen filters for screens visible in high traffic areas, to manage electronic device security risks?","HIPAA: §164.310(b) NIST CSF: PR.AA, PR.IR, PR.DS, DE.CM, PR.PS HPH CPG: 10, 6 HICP: TV1 - Practice #4, 6",Section 5
+6,What physical protections do you have in place for electronic devices with access to ePHI?,"HIPAA: §164.310(c) NIST CSF: PR.AA, PR.IR, PR.DS, DE.CM HPH CPG: 11 HICP: TV1 - Practice # 6",Section 5
+7,Do you keep an inventory and a location record of all electronic devices?,"HIPAA: §164.310(c) NIST CSF: PR.AA, PR.IR, PR.DS, DE.CM HPH CPG: 11 HICP: TV1 - Practice # 2, 6",Section 5
+8,Do you have an authorized user who approves access levels within information systems and locations that use ePHI?,"HIPAA: §164.310(b) NIST CSF: PR.AA, PR.IR, PR.DS, ID.AM HPH CPG: 11 HICP: TV1 - Practice # 5",Section 5
+9,Do you validate a person's access to facilities (including workforce members and visitors) based on their role or function?,"HIPAA: §164.308(a)(3)(ii)(A) NIST CSF: ID.AM, PR.MA, PR.PS HPH CPG: 6 HICP: TV1 - Practice # 2, 10",Section 5
+10,How do you validate a person's access to your facility?,"HIPAA: §164.310(a)(2)(iii) NIST CSF: ID.RA, PR.AA, PR.IR, PR.DS, DE.CM, DE.CP, PR.PS HPH CPG: 6 HICP: TV1 - Practice # 6",Section 5
+11,"Do you have access validation requirements for personnel and visitors seeking access to your critical systems (such as IT/OT, software developers, or network admins)?","HIPAA: §164.310(a)(2)(iii) NIST CSF: ID.RA, PR.AA, PR.IR, PR.DS, DE.CM, DE.CP HPH CPG: 6 HICP: TV1 - Practice # 6",Section 5
+12,Does this include controlling access to your software programs for testing and revisions?,"HIPAA: §164.310(a)(2)(iii) NIST CSF: ID.RA, PR.AA, PR.IR, PR.DS, DE.CM, DE.CP, PR.PS HPH CPG: 6, 3 HICP: TV1 - Practice #3, 6",Section 5
+13,Do you have procedures for validating a third-party person's access to the facility based on their role or function?,"HIPAA: §164.310(a)(2)(iii) NIST CSF: ID.RA, PR.AA, PR.IR, PR.DS, DE.CM, DE.CP HPH CPG: 6, 3 HICP:TV1, Practice # 2",Section 5
+14,"Do you have hardware, software, or other mechanisms that record and examine activity on information systems with access to ePHI?","HIPAA: §164.310(a)(2)(iii) NIST CSF: ID.RA, PR.AA, PR.IR, PR.DS, DE.CM, DE.CP, PR.PS HPH CPG: 6, 10 HICP: TV1 - Practice # 6",Section 5
+15,"What requirements, mechanisms, or controls are in place for retention of audit reports?","HIPAA: §164.312(b) NIST CSF: PR.AA, PR.IR, PR.DS, DE.AE, DE.CM HPH CPG: 18 HICP: TV1 - Practice # 3",Section 5
+16,"Do you maintain records of physical changes upgrades, and modifications to your facility?","HIPAA: §164.312(b) NIST CSF: PR.DS, DE.AE, DE.CM, PR.PS HPH CPG: 18 HICP: N/A",Section 5
+17,How do you maintain awareness of the movement of electronic devices and media?,"HIPAA: §164.310(a)(2)(iv) NIST CSF: PR.DS, PR.MA HPH CPG: 11 HICP: N/A",Section 5
+18,Do you back up ePHI to ensure availability when devices are moved?,"HIPAA: §164.310(d)(2)(iii) NIST CSF: PR.MA, DE.AE, DE.CM, PR.DS HPH CPG: 11 HICP: TV1 - Practice # 5, 10",Section 5
+19,"Do you ensure devices which created, maintained, received, or transmitted ePHI are effectively sanitized when they are disposed of?","HIPAA: §164.310(d)(2)(iv) NIST CSF: PR.DS, PR.PS HPH CPG: 11, 16 HICP: TV1 - Practice # 4",Section 5
+20,How do you determine what is considered appropriate use of electronic devices and connected network devices?,"HIPAA: §164.310(d)(1) NIST CSF: PR.AA, PR.IR, PR.DS, PR.PS HPH CPG: 11 HICP: TV1 - Practice # 5",Section 5
+21,Do you ensure access to ePHI is terminated when employment or other arrangements with the workforce member ends?,"HIPAA: §164.310(b) NIST CSF: PR.AA, PR.IR, PR.DS, DE.CM, ID.RA HPH CPG: 3, 11 HICP: TV1 - Practice # 4, 5",Section 5
+22,"Do you have procedures for terminating or changing third-party access across your organization when the contract, business associate agreement, or other arrangement with the third party ends or is changed?","HIPAA: §164.308(a)(3)(ii)(C) NIST CSF: PR.AA, PR.IR, PR.PS HPH CPG: 6 HICP: TV1 - Practice # 3",Section 5
+23,How do you ensure media is sanitized prior to re-use?,"HIPAA: §164.308(a)(3)(ii)(C) NIST CSF: PR.AA, PR.IR, PR.PS HPH CPG: 10 HICP: TV1 - Practice # 3",Section 5
+1,Inadequate facility access management procedures where information systems reside,Risk Score,Section 5
+2,Inadequate physical protection for information systems,Risk Score,Section 5
+3,Undocumented location of equipment or assets,Risk Score,Section 5
+4,Inadequate access controls for business associate and vendor access,Risk Score,Section 5
+5,Inadequate sanitation of media,Risk Score,Section 5
+6,Inadequate procedures for proper workstation and connected network device security,Risk Score,Section 5
+7,Failure to ensure user accounts are configured with appropriate permissions,Risk Score,Section 5
+1,Do you contract with business associates or other third-party vendors?,,Section 6
+2,Do you allow third-party vendors to access your information systems and/or ePHI?,"HIPAA: N/A NIST CSF: GV.RR, GV.PO, GV.OV HPH CPG: 10 HICP: TV1 - Practice # 3",Section 6
+3,"How do you identify which third-party vendors are business associates and need to create, receive, maintain, or transmit ePHI?","HIPAA: N/A NIST CSF: GV.RR, GV.PO, GV.OV HPH CPG: 10 HICP: TV1 - Practice # 3",Section 6
+4,How does your practice enforce or monitor access for each of these business associates?,"HIPAA: §164.308(b)(1) NIST CSF: ID.AM, PR.AA, PR.IR, PR.DS HPH CPG: 10, 12 HICP: TV1 - Practice # 3",Section 6
+5,"How do business associates communicate important changes in security practices, personnel, etc. to you?","HIPAA: §164.308(b)(1) NIST CSF: ID.AM, PR.AA, PR.IR, PR.DS, DE.CM HPH CPG: 10 HICP: TV1 - Practice # 3",Section 6
+6,"Have you executed business associate agreements with all business associates who create, receive, maintain, or transmit ePHI on your behalf?","HIPAA: N/A NIST CSF: GV.RR, GV.PO, GV.OV HPH CPG: 10, 13 HICP: N/A",Section 6
+7,"How do you maintain awareness of business associate security practices (i.e., in addition to Business Associate Agreements)?","HIPAA: §164.308(b)(3) NIST CSF: PR.AA, PR.IR HPH CPG: 10 HICP: N/A",Section 6
+8,Do you include satisfactory assurances within your Business Associate Agreements pertaining to how your business associates safeguard ePHI?,"HIPAA: N/A NIST CSF: PR.AT, RS.CO, DE.CM HPH CPG: 10, 12, 13 HICP: N/A",Section 6
+9,What terms are in your BAAs to outline how your business associates ensure subcontractors access ePHI securely?,"HIPAA: §164.314(a)(1)(i) NIST CSF: GV.RR, GV.PO, GV.OV HPH CPG: 10, 12, 13 HICP: N/A",Section 6
+10,Do your BAAs require your third-party vendors to report security incidents to your practice in a timely manner?,"HIPAA: §164.314(a)(2)(iii) NIST CSF: DE.AE, RS.CO HPH CPG: 10 HICP: N/A",Section 6
+11,Have you updated all your BAAs to reflect the requirements in the 2013 Omnibus Rule updates to HIPAA?,"HIPAA: §164.314(a)(2)(i)( c) NIST CSF: ID.RA, DE.AE, RS.CO HPH CPG: 10, 13 HICP: TV1 - Practice # 8",Section 6
+12,How does your practice document all of its business associates requiring access to ePHI?,"HIPAA: §164.314(a)(1) NIST CSF: ID.AM, GV.OC, PR.AT, GV.RR, GV.PO, GV.OV HPH CPG: 10, 13 HICP: N/A",Section 6
+13,Do you obtain Business Associate Agreements (BAAs) from business associates who access another covered entity's ePHI on your behalf?,"HIPAA: §164.308(b)(1) NIST CSF: ID.AM, PR.AA, PR.IR, PR.DS HPH CPG: 10 HICP: N/A",Section 6
+14,Does the organization require business associates and third-party vendors to implement security requirements more stringent than required in the HIPAA Rules?,HIPAA: §164.308(b)(2) NIST CSF: N/A HPH CPG: 10 HICP: N/A,Section 6
+15,How do you track and verify business associate and third-party vendor compliance to security policies and where are these policies documented?,HIPAA: N/A NIST CSF: GV.SC HPH CPG: 13 HICP: N/A,Section 6
+1,Uncontrolled access to ePHI to business associates/vendors,Risk Score,Section 6
+2,Inadequate business associate/vendor agreements,Risk Score,Section 6
+3,No security or privacy assurances obtained from business associates/vendors,Risk Score,Section 6
+4,Failure to update or review business associate contracts,Risk Score,Section 6
+1,Does your practice have a contingency plan in the event of an emergency?,,Section 7
+2,Is your contingency plan documented?,"HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA HPH CPG: 7, 19 HICP: TV1 - Practice # 8",Section 7
+3,Do you periodically update your contingency plan?,"HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA HPH CPG: 7, 19 HICP: N/A",Section 7
+4,How do you ensure that your contingency plan is effective and updated appropriately?,"HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA, ID.IM HPH CPG: 7, 19 HICP: N/A",Section 7
+5,Have you considered what kind of emergencies could damage critical information systems or prevent access to ePHI within your practice?,"HIPAA: §164.308(a)(7)(ii)(D) NIST CSF: ID.IM, ID.RA, PR.PS, GV.OC HPH CPG: 7, 19 HICP: N/A",Section 7
+6,What types of emergencies have you considered?,"HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA, ID.RA HPH CPG: 7, 19 HICP: N/A",Section 7
+7,Have you documented in your policies and procedures various emergency types and how you would respond to them?,"HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA, ID.RA HPH CPG: 7, 19 HICP: N/A",Section 7
+8,"Does your practice have policies and procedures in place to prevent, detect, and respond to security incidents?","HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA HPH CPG: 7, 19 HICP: N/A",Section 7
+9,"How does your practice prevent, detect, and respond to security incidents?","HIPAA: §164.308(a)(6)(i) NIST CSF: DE.AE, RS.CO, RC.CO, PR.PS HPH CPG: 18, 19 HICP: N/A",Section 7
+10,Has your practice identified specific personnel as your incident response team?,"HIPAA: §164.308(a)(6)(i) NIST CSF: DE.AE, RS.CO, RC.CO, PR.PS, RS.IP HPH CPG: 7, 18, 19 HICP: TV1 - Practice # 8",Section 7
+11,How are members of your incident response team identified and trained?,"HIPAA: §164.308(a)(6)(ii) NIST CSF: RC.CO, GV.RM, PR.PS, DE.AE, RS.MA, RS.CO, RS.AN, RS.MI, ID.AM, GV.RR, GV.PO, GV.OV HPH CPG: 7, 19 HICP: TV1 - Practice # 8",Section 7
+12,Has your practice evaluated and determined which systems and ePHI are necessary for maintaining business-as-usual in the event of an emergency?,"HIPAA: §164.308(a)(6)(ii) NIST CSF: PR.AT, RC.CO, GV.RM, PR.PS, DE.AE, RS.MA, RS.CO, RS.AN, RS.MI, ID.AM, ID.RA HPH CPG: 4, 7, 19 HICP: TV1 - Practice # 8",Section 7
+13,"How would your practice maintain access to ePHI in the event of an emergency, system failure, or physical disaster?","HIPAA: §164.308(a)(7)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA HPH CPG: 19 HICP: TV1 - Practice # 10",Section 7
+14,"How would your practice maintain security of ePHI and crucial business processes before, during, and after an emergency?","HIPAA: §164.312(a)(2)(ii) NIST CSF: PR.AA, PR.IR, GV.OC, PR.DS, PR.PS, PR.MA, RS.MA, RS.CO HPH CPG: 19 HICP: N/A",Section 7
+15,Do you have a plan for backing up and restoring critical data?,"HIPAA: §164.308(a)(7)(ii)(C) NIST CSF: GV.OC, GV.RM, PR.PS, RS.MA, RS.CO, RS.AN, RC.CO, RC.RP HPH CPG: 7, 19 HICP: N/A",Section 7
+16,How is your practice's emergency procedure activated?,"HIPAA: §164.308(a)(7)(ii)(A),§164.308(a)(7)(ii)(B), and §164.308(a)(7)(ii)(E) NIST CSF: GV.OC, ID.RA, GV.RM, RS.AN, PR.PS, RS.MA, RS.CO, RC.CO, RC.RP, PR.DS HPH CPG: 19, 20 HICP: TV1 - Practice # 10",Section 7
+17,How is access to your facility coordinated in the event of disasters or emergency situations?,"HIPAA: §164.312(a)(2)(ii) NIST CSF: GV.OC, PR.PS, DE.AE, RS.MA, RS.CO HPH CPG: 19 HICP: N/A",Section 7
+18,How is your emergency procedure terminated after the emergency circumstance is over?,"HIPAA: §164.310(a)(2)(i) NIST CSF: GV.OC, GV.RM, PR.AA, PR.IR, PR.PS, RS.MA, PR.DS, RS.CO, RC.RP HPH CPG: 19 HICP: N/A",Section 7
+19,"Do you formally evaluate the effectiveness of your security safeguards, including physical safeguards?",HIPAA: §164.312(a)(2)(ii) NIST CSF: N/A HPH CPG: 19 HICP: N/A,Section 7
+20,"How do you evaluate the effectiveness of your security safeguards, including physical safeguards?","HIPAA: §164.308(a)(8) NIST CSF: ID.AM, GV.OC, ID.RA, PR.PS, DE.AE, DE.CM, RS.MI, ID.IM, RC.MI HPH CPG: 19 HICP: N/A",Section 7
+1,Failure to adopt a documented business contingency plan,Risk Score,Section 7
+2,Failure to update or review contingency plan procedures,Risk Score,Section 7
+3,Lack of consideration to reasonably anticipated environmental threats,Risk Score,Section 7
+4,Infrequent training provided to staff and personal regarding business contingency procedures,Risk Score,Section 7
+5,Inadequate written procedures for security incident tracking and monitoring,Risk Score,Section 7
+6,Lack of access to ePHI during emergency events,Risk Score,Section 7
