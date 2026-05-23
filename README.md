@@ -79,6 +79,8 @@ Upon pipeline execution, the following validated compliance artifacts will gener
 
 [SIGNAL_STABLE // END_ROBO_TRANSMISSION]
 
+```
+
 ---
 
 ## 👤 Author & Contact
