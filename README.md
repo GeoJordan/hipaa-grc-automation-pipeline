@@ -63,8 +63,8 @@ Dashboard Generation
 |---|---|
 | Language | Python 3.11 |
 | Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib |
-| Framework Mapping | HIPAA + HITRUST |
+| Visualization | Matplotlib, Seaborn |
+| Framework Mapping | HIPAA Security Rule + HITRUST CSF |
 | Environment | PowerShell |
 | Outputs | CSV, PNG |
 
@@ -101,6 +101,7 @@ Technical safeguards showed fewer assets but higher severity findings due to pro
 - Implement continuous compliance monitoring
 
 ---
+
 ## ⚙️ Installation
 
 ### 1. Clone Repository
@@ -108,15 +109,15 @@ Technical safeguards showed fewer assets but higher severity findings due to pro
 ```bash
 git clone https://github.com/GeoJordan/hipaa-grc-automation-pipeline.git
 cd hipaa-grc-automation-pipeline
+
 ```
 
 ### 2. (Optional) Create Virtual Environment
 
-Windows:
-
 ```bash
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\Activate.ps1
+
 ```
 
 Mac/Linux:
@@ -130,6 +131,7 @@ source venv/bin/activate
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+
 ```
 
 ### 4. Verify Installation
@@ -234,11 +236,14 @@ outputs/
 
 ### Example Outputs
 
+```md
+
 | File | Purpose |
 |---|---|
-| compliance_matrix.csv | Compliance assessment |
-| dashboard.png | Executive reporting |
+| `final_portfolio_compliance_matrix_100.csv` | Audit-ready compliance matrix |
+| `compliance_risk_dashboard.png` | Executive risk dashboard |
 
+```
 ---
 
 ## 👨‍💻 About the Author
