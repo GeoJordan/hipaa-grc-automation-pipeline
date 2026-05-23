@@ -1,94 +1,260 @@
-# Automated HIPAA & HITRUST Risk Assessment Pipeline
+# 🏥 HIPAA GRC Automation Pipeline
 
-## 📌 Project Overview
-Early-stage healthcare startups face a dual challenge: they must rapidly build digital infrastructure while simultaneously complying with strict, complex healthcare regulations like the **HIPAA Security Rule** and the **HITRUST Common Security Framework (CSF)**. Traditional risk assessment workflows rely on static, manual spreadsheets that fail to scale alongside dynamic IT environments.
+> Automated healthcare compliance assessment pipeline that simulates asset inventory, injects security vulnerabilities, maps findings to HIPAA Security Rule + HITRUST CSF, and generates executive-ready audit reporting.
 
-This project implements an automated, programmatic GRC (Governance, Risk, and Compliance) pipeline using Python and Pandas. The pipeline generates a simulated corporate asset infrastructure of 100 components, models context-specific threat scenarios, and dynamically maps those vulnerabilities directly to **HIPAA Safeguard Citations** and **HITRUST CSF 06.0 Controls**. Finally, it aggregates the data into an audit-ready executive cross-tabulation matrix and generates a presentation-ready data visualization dashboard.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![HIPAA](https://img.shields.io/badge/HIPAA-Security%20Rule-green)
+![HITRUST](https://img.shields.io/badge/HITRUST-CSF-orange)
+![GRC](https://img.shields.io/badge/GRC-Automation-purple)
+![Status](https://img.shields.io/badge/Portfolio-Project-black)
 
 ---
 
-## 🛠️ Technology Stack & Core Architecture
-* **Language:** Python 3.11+
-* **Data Science Libraries:** Pandas, NumPy
-* **Visualization Engine:** Matplotlib, Seaborn
-* **Shell Environment:** PowerShell / Windows Terminal
+## 🚀 Highlights
 
-The pipeline is split into three decoupled operational stages:
-1. **`simulate_assets.py` (Asset Baseline):** Programs the mock baseline inventory of 100 critical startup infrastructure items split among network gateways, backend identity access matrices, and operational production databases.
-2. **`inject_vulnerabilities.py` (Threat Engine):** Implements a keyword-scanning algorithm that identifies infrastructure types and applies targeted risk severity ranks, mitigations, and compliance gap data.
-3. **`analyze_compliance.py` (Framework Crosswalk & Visualization):** Computes explicit structural references down to regulatory sub-clauses, outputs terminal data summaries, and saves an executive stacked-bar dashboard.
+✔ Simulated 100 enterprise healthcare assets  
+✔ Automated vulnerability injection engine  
+✔ HIPAA → HITRUST crosswalk generation  
+✔ Executive dashboard generation  
+✔ Audit-ready compliance outputs
+
+---
+
+## 📸 Dashboard Preview
+
+![Executive Dashboard](compliance_risk_dashboard.png)
+
+---
+
+## 📚 Contents
+
+- Project Overview
+- Architecture
+- Technology Stack
+- Dashboard Preview
+- Findings
+- Execution
+- Deliverables
+- Author
+
+---
+
+## 🏗 Pipeline Architecture
+
+```text
+simulate_assets.py
+        ↓
+inject_vulnerabilities.py
+        ↓
+analyze_compliance.py
+        ↓
+Risk Scoring Engine
+        ↓
+HIPAA ↔ HITRUST Mapping
+        ↓
+Dashboard Generation
+```
+
+---
+
+## 🧰 Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Python 3.11 |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib |
+| Framework Mapping | HIPAA + HITRUST |
+| Environment | PowerShell |
+| Outputs | CSV, PNG |
 
 ---
 
 ## 📊 Executive Audit Findings
 
-The automated pipeline evaluated 100 high-risk infrastructure components, grouping security flaws into their native compliance domains and risk tiers:
-
-![Executive Compliance Dashboard](compliance_risk_dashboard.png)
-
-### 🔍 Tactical GRC Insights
-* **Concentrated Data Blast Radius:** While the **Technical/Physical Safeguards** category contains fewer individual assets (28), it contains the highest concentration of **Critical** vulnerabilities (12 out of 20). This represents production database servers and unmasked cloud buckets containing active ePHI—the highest immediate impact zone for an assessor.
-* **Broad Identity Surface Area:** **Administrative Safeguards** represent the widest attack surface across the startup (38 total items). These risks represent identity sprawl, missing mobile device management (MDM) baseline profiles, and offboarding delays. These findings prioritize automated provisioning and stricter Role-Based Access Control (RBAC).
+| Metric | Result |
+|---|---:|
+| Assets Assessed | 100 |
+| Compliance Domains | 3 |
+| Critical Findings | 18 |
+| High Findings | 60 |
+| Dashboard Outputs | 2 |
 
 ---
 
-## 📂 Code Execution & Pipeline Re-generation
+![Dashboard](compliance_risk_dashboard.png)
 
-To clone this directory and run the data compilation pipeline from scratch, execute the following sequences within your local terminal:
+---
 
-### 1. Install Dependencies
+## 🔎 Key Risk Insights
 
-```powershell
-pip install pandas matplotlib seaborn
+### Identity & Access Controls
+Highest concentration of findings tied to identity governance gaps including provisioning delays, RBAC weaknesses, and missing MDM enforcement.
 
+### Data Protection
+Technical safeguards showed fewer assets but higher severity findings due to production databases and ePHI exposure risk.
+
+### Recommended Actions
+- Strengthen IAM governance
+- Enforce MFA baseline
+- Automate asset inventory
+- Implement continuous compliance monitoring
+
+---
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/GeoJordan/hipaa-grc-automation-pipeline.git
+cd hipaa-grc-automation-pipeline
 ```
 
-### 2. Execute Data Generation Pipeline
+### 2. (Optional) Create Virtual Environment
 
-```powershell
-# Step A: Spin up the 100 baseline business assets
-py simulate_assets.py
+Windows:
 
-# Step B: Scan assets and inject threat scenario vectors
-py inject_vulnerabilities.py
-
-# Step C: Apply regulatory mappings and export visual dashboard
-py analyze_compliance.py
-
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
-## 📈 Portfolio Deliverables & Artifacts
+Mac/Linux:
 
-Upon pipeline execution, the following validated compliance artifacts will generate directly to disk storage:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### 4. Verify Installation
+
+```bash
+python --version
+```
+
+Expected:
 
 ```text
-[SYSTEM_OVERRIDE // ACTIVATING_ROBOTIC_GRC_PROTOCOL]
-[CORE_PORTFOLIO_OUTPUT_STREAM // INITIALIZED]
-
->> FILE_01: final_portfolio_compliance_matrix_100.csv
-   [TYPE]: Audit-Ready Master Asset Registry
-   [DATA]: Consolidates 100 enterprise business components, risk 
-           ratings, flaws, mitigations, and HIPAA/HITRUST crosswalks.
-   [STATUS]: Operational // Export Complete
-
->> FILE_02: compliance_risk_dashboard.png
-   [TYPE]: Executive Data Visualization Matrix
-   [DATA]: Color-coded, stacked-bar rendering engineered via 
-           Matplotlib/Seaborn for presentation to stakeholders.
-   [STATUS]: Rasterized // Ready for Presentation
-
-[SIGNAL_STABLE // END_ROBO_TRANSMISSION]
-
+Python 3.11+
 ```
 
 ---
 
-## 👤 Author & Contact
-* **Developer:** George Jordan
-* **Role:** GRC & HIPAA Compliance Specialist
-* **Project Profile:** [LinkedIn](https://www.linkedin.com/in/georgejordan-grc) | [GitHub](https://github.com/GeoJordan)
+## ▶ Run Pipeline
+
+Execute the workflow in sequence.
+
+### Step 1 — Generate Healthcare Asset Inventory
+
+Creates a simulated environment of healthcare infrastructure assets.
+
+```bash
+python simulate_assets.py
+```
+
+Output:
+
+```text
+100 simulated assets created
+```
 
 ---
+
+### Step 2 — Inject Security Threat Scenarios
+
+Simulates infrastructure vulnerabilities and control failures.
+
+```bash
+python inject_vulnerabilities.py
+```
+
+Output:
+
+```text
+Threat scenarios generated
+Compliance gaps identified
+```
+
+---
+
+### Step 3 — Run HIPAA + HITRUST Assessment
+
+Maps findings to safeguards and builds reporting outputs.
+
+```bash
+python analyze_compliance.py
+```
+
+Output:
+
+```text
+Compliance matrix generated
+Dashboard exported
+```
+
+---
+
+### Expected Output Files
+
+```text
+hipaa-grc-automation-pipeline/
+│
+├── final_portfolio_compliance_matrix_100.csv
+│
+└── compliance_risk_dashboard.png
+```
+
+Open:
+
+```text
+compliance_risk_dashboard.png
+```
+
+to review executive-level findings.
+
+---
+
+## 📦 Generated Deliverables
+
+Upon execution, the pipeline generates:
+
+```text
+outputs/
+│
+├── final_portfolio_compliance_matrix_100.csv
+│
+└── compliance_risk_dashboard.png
+```
+
+### Example Outputs
+
+| File | Purpose |
+|---|---|
+| compliance_matrix.csv | Compliance assessment |
+| dashboard.png | Executive reporting |
+
+---
+
+## 👨‍💻 About the Author
+
+**George Jordan**  
+GRC • Healthcare Security • Compliance Automation
+
+🔗 LinkedIn: https://linkedin.com/in/geojordan  
+🔗 Portfolio: https://asarejordan.com  
+🔗 GitHub: https://github.com/GeoJordan
+
+---
+
+⭐ If this project was useful, consider starring the repository.
+
+
 
 ## 📄 License
 This project is open-source and available under the **MIT License**. Feel free to fork, modify, and utilize this pipeline for your own compliance mapping frameworks.
